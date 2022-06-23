@@ -1,7 +1,7 @@
 import MainContainer from "../../containers/MainContainer";
 const user = ({ user }) => {
   return (
-    <MainContainer>
+    <MainContainer keywords={user.name}>
       <div>
         пользователь с id {user.id} name {user.name}
       </div>
